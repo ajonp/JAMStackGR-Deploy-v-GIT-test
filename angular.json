@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "JAMStackGR-Deploy-v-GIT": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "JAMStackGR-Deploy-v-GIT"
+    }
+  },
+  "defaultProject": "JAMStackGR-Deploy-v-GIT",
+  "cli": {
+    "analytics": "f6a38b3e-94be-42aa-8d50-a76c8ea31bc5"
+  }
 }
