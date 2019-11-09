@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "jamstackgr-2-test": {
+      "hosting": {
+        "JAMStackGR-Deploy-v-GIT": [
+          "jamstackgr-2-test"
+        ]
+      }
+    }
+  }
+}

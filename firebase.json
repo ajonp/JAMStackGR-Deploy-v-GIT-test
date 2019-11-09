@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "JAMStackGR-Deploy-v-GIT",
+      "public": "dist/JAMStackGR-Deploy-v-GIT",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
