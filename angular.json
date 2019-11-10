@@ -119,8 +119,15 @@
           }
         },
         "deploy": {
-          "builder": "@angular/fire:deploy",
-          "options": {}
+          "builder": "@azure/ng-deploy:deploy",
+          "options": {
+            "host": "Azure",
+            "type": "static",
+            "config": "azure.json"
+          }
+        },
+        "azureLogout": {
+          "builder": "@azure/ng-deploy:logout"
         }
       }
     }

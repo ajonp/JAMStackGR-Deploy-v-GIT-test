@@ -1,0 +1,17 @@
+{
+  "hosting": [
+    {
+      "app": {
+        "project": "JAMStackGR-Deploy-v-GIT",
+        "target": "build",
+        "configuration": "production",
+        "path": "dist/JAMStackGR-Deploy-v-GIT"
+      },
+      "azureHosting": {
+        "subscription": "ba9a05ba-1cfb-4049-aba4-441f44572434",
+        "resourceGroupName": "JAMStackGR-Deploy-v-GIT-static-deploy",
+        "account": "jamstackgrdeployvgstatic"
+      }
+    }
+  ]
+}
