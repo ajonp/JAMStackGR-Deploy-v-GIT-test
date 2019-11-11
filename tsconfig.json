@@ -17,7 +17,17 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "jamstackgr2-library": [
+        "dist/jamstackgr2-library",
+        "dist/jamstackgr2-library"
+      ],
+      "jamstackgr2-library/*": [
+        "dist/jamstackgr2-library/*",
+        "dist/jamstackgr2-library/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
