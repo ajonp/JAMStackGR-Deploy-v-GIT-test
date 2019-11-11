@@ -119,7 +119,12 @@
           }
         },
         "deploy": {
-          "builder": "@zeit/ng-deploy:deploy"
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/JAMStackGR-Deploy-v-GIT",
+            "netlifyToken": "037ba2af8a480f0d73faec8c1db1761ccee24a4619f3776488a4e08053d99946",
+            "siteId": "7b9f51c1-2296-408c-a208-939892c80dde"
+          }
         },
         "azureLogout": {
           "builder": "@azure/ng-deploy:logout"
